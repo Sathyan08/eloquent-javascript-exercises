@@ -11,6 +11,11 @@ function fizzBuzz(num) {
   };
 
   sounds = first + second
-  return sounds
+
+
+  sounds.length > 0 ?  output = sounds : output = num;
+  return output
 };
+
+console.log(fizzBuzz(1));
 
