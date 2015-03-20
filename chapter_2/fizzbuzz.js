@@ -12,10 +12,12 @@ function fizzBuzz(num) {
 
   sounds = first + second
 
-
   sounds.length > 0 ?  output = sounds : output = num;
   return output
 };
 
 console.log(fizzBuzz(1));
+
+for (var number = 0; number <= 100; number ++)
+  console.log(fizzBuzz(number));
 
