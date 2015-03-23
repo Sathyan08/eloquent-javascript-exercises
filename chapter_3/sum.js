@@ -11,7 +11,7 @@ function range(start, end){
 function sum(array){
   var counter = 0;
 
-  for(var index; index < array.length; index ++){
+  for(var index = 0; index < array.length; index ++){
     counter += array[index];
   };
 
